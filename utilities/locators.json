@@ -1,0 +1,13 @@
+{
+    "signin_page_username":"//input[@placeholder='Username']",
+    "signin_page_password":"//input[@placeholder='Password']",
+    "signin_page_login_button":"//input[@id='login-button']",
+    "inventory_page_add_to_cart":"//button[text()='Add to cart']",
+    "inventory_page_shopping_cart_badge":"//span[@class='shopping_cart_badge']",
+    "checkout_page_checkout_button":"//button[text()='Checkout']",
+    "checkout_info_page_firstname":"//input[@placeholder='First Name']",
+    "checkout_info_page_lastname":"//input[@placeholder='Last Name']",
+    "checkout_info_page_postalcode":"//input[@placeholder='Zip/Postal Code']",
+    "checkout_info_page_continue_button":"//input[@id='continue']",
+    "checkout_two_page_finish_button":"//button[@id='finish']"
+}
