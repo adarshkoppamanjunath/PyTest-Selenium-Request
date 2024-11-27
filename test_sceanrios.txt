@@ -1,0 +1,45 @@
+ATM Bank Machine that dispenses cash.
+Create a test plan for how you would ensure it’s functions and behaviours are correct.
+Within the test plan, come up with different test cases that you can think of and group
+them by similar components. Minimum 8 test cases.
+
+Components - 
+Functional & Non Functional
+                Machine Softwae - Withdraw, Deposit, Balance Enquiry
+                Machine Hardware - Card Reader, Keypad, Poweroutlet
+
+Functional
+    Withdraw
+        Test01: Verify ATM machine gives Withdraw, Deposit, and Balance options when user hit start button
+        Test02: Verify ATM machine let the user to select the Withdraw Option
+        Test03: Verify ATM machine on selecing Withdraw option user is prompted with the insert card option.
+        Test04: Verify ATM machine throws error message on interting the card in a wrong way.  
+        Test04: Verify ATM machine user is asked to enter pin after inserting card.
+        Test05: Verify ATM machine throws error on entering wrong pin
+        Test06: Verify ATM machine ask for the amount to withdraw after entering the right pin
+        Test07: Verify ATM machine display not sufficiante balance message when entered amount is greater than balance.
+        Test08: Verify ATM machine will let user to withdraw money if balance is sufficiante.
+        Test09: Verify ATM machine will ask for PIN again with all the menu after first transaction is over.
+        Test10: Verify ATM machine display balance after the successfull withdraw with the receipt. 
+        Test11: Verify ATM machine / receipt doesn't display PIN or any card details. 
+        Test12: Verify ATM machine locks card after entering wrong pin more than 5 times. 
+        Test13: Verify ATM machine gives out the cash correctly as per the inputted number in withdraw option.
+        Test14: Verify ATM machine opertions trigger alert message to user number or email. 
+        Test15: Verify ATM machine can accept card from different bank with the appropriate fee and fee for the same bank card. 
+    
+    Hardware:
+        Test16: Verify ATM machine Keypad has all numbers and letters required for the transactions.
+        Test17: Verify ATM machine keypad buttons works. 
+        Test18: Verify ATM machine card reader works.
+        Test19: Verify ATM machine turns on after connecting to the power outlet. 
+        Test20: Verify ATM machine money outelt can be opened and closed securly to load cash physically by mantainance team. 
+Non Functional
+        Test21: Verify ATM machine can handle continuous transaction for 23 hours without any delay or errors.
+        Test22: Verify ATM machine can continue to work fine after keeping it plugged off for a week. 
+        Test23: Verify ATM machine can accept user input within acceptable time and continute to operate.
+        Test24: Verify ATM machine will not break on any little acceptable physical force. 
+        Test25: Verify ATM machine shows correct balance or user deltails when user is handling their account at the same time from any other device ( inlucding mobile app or online banking)
+     
+
+
+             
