@@ -25,4 +25,4 @@ jobs:
 
     - name: Run the test.py script
       run: |
-        pytest testCases/
+        pytest testCases/ --disable-warnings -s
